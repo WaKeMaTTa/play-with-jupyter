@@ -1,0 +1,12 @@
+#!/bin/bash
+set -e
+
+# Make sure we have the virtual environment ready
+if [ ! -d 'myvenv' ]; then
+  bin/setup
+fi
+
+# Access to virtual environment
+source myvenv/bin/activate
+
+jupyter $@

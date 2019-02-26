@@ -1,0 +1,23 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.idea
+.tox
+*.sublime*
+*.egg-info
+Icon?
+ehthumbs.db
+Thumbs.db
+.eggs
+
+# Ansible generated files #
+###########################
+tests.out
+*.retry
+*.swp
+env
+myvenv
