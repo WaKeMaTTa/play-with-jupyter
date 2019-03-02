@@ -7,8 +7,8 @@ sudo apt-get install python3
 
 # Create and access to virtual environment
 rm -rf myvenv
-virtualenv myvenv
+virtualenv myvenv -p $(which python3)
 source myvenv/bin/activate
 
 # Install python requirements
-pip install -r requirements.txt
+pip3 install -r requirements.txt
